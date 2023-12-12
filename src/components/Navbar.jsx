@@ -14,7 +14,7 @@ const links = [
 
 export default function RootLayout() {
   return (
-    <Box py='lg' component='header'>
+    <Box py='xl' component='header'>
       <Flex component='nav' justify='space-between' align='center'>
         <Anchor component={Link} to='/'>
           <Image w={200} src='/logo.png' />
