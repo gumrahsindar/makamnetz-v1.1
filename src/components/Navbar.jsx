@@ -1,5 +1,64 @@
-import { Box } from '@mantine/core'
+import { Anchor, Box, Flex, Group, Image } from '@mantine/core'
+import {
+  IconBrandYoutubeFilled,
+  IconBrandGithub,
+  IconLanguage,
+} from '@tabler/icons-react'
+import { Link } from 'react-router-dom'
 
-export default function Navbar() {
-  return <Box component='nav'>Navbar</Box>
+const links = [
+  { name: 'ÇEŞNİ EVRENİ', href: '/cesni-world' },
+  { name: 'Makamlar', href: '/makams' },
+  { name: 'Makam Ağı', href: '/makam-network' },
+]
+
+export default function RootLayout() {
+  return (
+    <Box py='lg' component='header'>
+      <Flex component='nav' justify='space-between' align='center'>
+        <Anchor component={Link} to='/'>
+          <Image w={200} src='/logo.png' />
+        </Anchor>
+        <Group gap='5rem' justify='space-between'>
+          {links.map((link) => (
+            <Anchor
+              ff={'Inder'}
+              component={Link}
+              classNames={{
+                root: 'text-gray-100 hover:text-yellow-400 duration-300 text-lg font-semibold uppercase',
+              }}
+              underline='never'
+              key={link.name}
+              to={link.href}
+            >
+              {link.name}
+            </Anchor>
+          ))}
+        </Group>
+        <Group>
+          <Anchor
+            className=' text-gray-400 hover:text-yellow-400 duration-300'
+            target='_blank'
+            href='https://youtube.com'
+          >
+            <IconBrandYoutubeFilled size={30} />
+          </Anchor>
+          <Anchor
+            className=' text-gray-400 hover:text-yellow-400 duration-300'
+            target='_blank'
+            href='https://youtube.com'
+          >
+            <IconBrandGithub size={30} />
+          </Anchor>
+          <Anchor
+            className='text-gray-400 hover:text-yellow-400 duration-300'
+            target='_blank'
+            href='https://youtube.com'
+          >
+            <IconLanguage size={30} />
+          </Anchor>
+        </Group>
+      </Flex>
+    </Box>
+  )
 }
