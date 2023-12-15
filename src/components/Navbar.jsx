@@ -1,9 +1,5 @@
-import { Anchor, Box, Flex, Group, Image } from '@mantine/core'
-import {
-  IconBrandYoutubeFilled,
-  IconBrandGithub,
-  IconLanguage,
-} from '@tabler/icons-react'
+import { Anchor, Box, Divider, Flex, Group, Image } from '@mantine/core'
+import { IconBrandYoutubeFilled, IconBrandGithub, IconLanguage } from '@tabler/icons-react'
 import { Link } from 'react-router-dom'
 
 const links = [
@@ -14,7 +10,7 @@ const links = [
 
 export default function RootLayout() {
   return (
-    <Box py='lg' component='header'>
+    <Box py='xl' component='header'>
       <Flex component='nav' justify='space-between' align='center'>
         <Anchor component={Link} to='/'>
           <Image w={200} src='/logo.png' />
@@ -37,21 +33,21 @@ export default function RootLayout() {
         </Group>
         <Group>
           <Anchor
-            className=' text-gray-400 hover:text-yellow-400 duration-300'
+            className=' text-gray-400 duration-300 hover:text-yellow-400'
             target='_blank'
             href='https://youtube.com'
           >
             <IconBrandYoutubeFilled size={30} />
           </Anchor>
           <Anchor
-            className=' text-gray-400 hover:text-yellow-400 duration-300'
+            className=' text-gray-400 duration-300 hover:text-yellow-400'
             target='_blank'
             href='https://youtube.com'
           >
             <IconBrandGithub size={30} />
           </Anchor>
           <Anchor
-            className='text-gray-400 hover:text-yellow-400 duration-300'
+            className='text-gray-400 duration-300 hover:text-yellow-400'
             target='_blank'
             href='https://youtube.com'
           >
@@ -59,6 +55,7 @@ export default function RootLayout() {
           </Anchor>
         </Group>
       </Flex>
+      <Divider my={'sm'} />
     </Box>
   )
 }

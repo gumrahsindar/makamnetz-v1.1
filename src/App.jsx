@@ -2,9 +2,9 @@ import { Container, MantineProvider } from '@mantine/core'
 import Navbar from './components/Navbar'
 import { theme } from './components/ui/theme'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import CesniWorld from './pages/CesniWorld'
-import Makams from './pages/Makams'
-import MakamNetwok from './pages/MakamNetwok'
+import CesniWorld from './pages/CesniWorld/CesniWorld'
+import Makams from './pages/Makams/Makams'
+import MakamNetwok from './pages/MakamNetwork/MakamNetwok'
 
 function App() {
   return (
