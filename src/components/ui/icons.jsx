@@ -1,8 +1,7 @@
-export const ArrowRight = () => (
+export const ArrowRight = ({ className }) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    className='icon icon-tabler icon-tabler-arrow-big-right-lines absolute left-[28%] top-[25%]
-    '
+    className={`icon icon-tabler icon-tabler-arrow-big-right-lines  absolute ${className}`}
     width='80'
     height='80'
     viewBox='0 0 24 24'
