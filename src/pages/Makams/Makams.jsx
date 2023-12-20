@@ -22,13 +22,13 @@ export default function Makams() {
 
   return (
     <Box component='section' id='makams' m='sm'>
-      <Flex justify='space-between' gap='md'>
+      <Flex>
         <Stack p='sm' className='w-3/12 rounded-md'>
           <Box>
             <Combobox
               classNames={{
-                options: 'text-white bg-slate-700 rounded-md',
-                option: 'hover:bg-slate-600 duration-200 tracking-wide',
+                options: 'text-white bg-slate-600 rounded-md',
+                option: 'hover:bg-slate-500 duration-500 tracking-wide hover:text-yellow-400 ',
               }}
               onOptionSubmit={(optionValue) => {
                 setValue(optionValue)
@@ -62,7 +62,11 @@ export default function Makams() {
 
               <Combobox.Dropdown>
                 <Combobox.Options>
-                  {options.length === 0 ? <Combobox.Empty>Nothing found</Combobox.Empty> : options}
+                  {options.length === 0 ? (
+                    <Combobox.Empty className='italic text-zinc-300'>Makam bulunamadı</Combobox.Empty>
+                  ) : (
+                    options
+                  )}
                 </Combobox.Options>
               </Combobox.Dropdown>
             </Combobox>

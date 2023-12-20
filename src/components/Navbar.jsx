@@ -37,21 +37,21 @@ export default function RootLayout() {
             target='_blank'
             href='https://youtube.com'
           >
-            <IconBrandYoutubeFilled size={30} />
+            <IconBrandYoutubeFilled size={25} />
           </Anchor>
           <Anchor
             className=' text-gray-400 duration-300 hover:text-yellow-400'
             target='_blank'
-            href='https://youtube.com'
+            href='https://github.com'
           >
-            <IconBrandGithub size={30} />
+            <IconBrandGithub size={25} />
           </Anchor>
           <Anchor
             className='text-gray-400 duration-300 hover:text-yellow-400'
             target='_blank'
             href='https://youtube.com'
           >
-            <IconLanguage size={30} />
+            <IconLanguage size={25} />
           </Anchor>
         </Group>
       </Flex>
