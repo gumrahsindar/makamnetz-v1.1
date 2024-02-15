@@ -2,6 +2,7 @@ import { Box, Divider, Stack, Text, Title } from '@mantine/core'
 import AudioPlayer from '../../../components/lib/AudioPlayer'
 
 export default function MakamInfo({ selectedMakam }) {
+  console.log(selectedMakam)
   return (
     <Box>
       <Stack className='rounded-md' bg='dark.6' p='xs'>
@@ -12,7 +13,11 @@ export default function MakamInfo({ selectedMakam }) {
           {selectedMakam ? selectedMakam.desc : 'Select a makam to see the description.'}
         </Text>
         <Divider />
-        <AudioPlayer src='/neva_hicaz01.mp3' />
+        <AudioPlayer src={
+          selectedMakam
+            ? selectedMakam.audio
+            : 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
+        } />
       </Stack>
     </Box>
   )
