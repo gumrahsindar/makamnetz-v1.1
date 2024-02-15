@@ -25,7 +25,7 @@ export default function SeyirSection({ selectedMakam }) {
               >
                 <Text className='text-sm text-white '>
                   {root}
-                  <Text component='sup' fz='xs'>
+                  <Text component='sup' fz='xs' fs='italic'>
                     {pow}
                   </Text>
                 </Text>

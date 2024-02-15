@@ -3,7 +3,8 @@ import { IconBrandYoutubeFilled, IconBrandGithub, IconLanguage } from '@tabler/i
 import { Link } from 'react-router-dom'
 
 const links = [
-  { name: 'ÇEŞNİ EVRENİ', href: '/cesni-world' },
+  // uncomment when hardcoding is removed
+  // { name: 'ÇEŞNİ EVRENİ', href: '/cesni-world' },
   { name: 'Makamlar', href: '/makams' },
   { name: 'Makam Ağı', href: '/makam-network' },
 ]
@@ -16,6 +17,17 @@ export default function RootLayout() {
           <Image w={200} src='/logo.png' />
         </Anchor>
         <Group gap='5rem' justify='space-between'>
+          {/* hardcoding start */}
+          <Anchor
+            href='https://makam-netzfrontend.vercel.app/'
+            target='_blank'
+            classNames={{
+              root: 'text-gray-100 hover:text-yellow-400 duration-300 text-lg font-semibold uppercase',
+            }}
+          >
+            ÇEŞNİ EVRENİ
+          </Anchor>
+          {/* hardcoding end */}
           {links.map((link) => (
             <Anchor
               ff={'Inder'}
@@ -35,7 +47,7 @@ export default function RootLayout() {
           <Anchor
             className=' text-gray-400 duration-300 hover:text-yellow-400'
             target='_blank'
-            href='https://youtube.com'
+            href='https://www.youtube.com/@MakamNetz'
           >
             <IconBrandYoutubeFilled size={25} />
           </Anchor>
