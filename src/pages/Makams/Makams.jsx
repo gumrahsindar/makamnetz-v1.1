@@ -13,7 +13,17 @@ export default function Makams() {
     ? makams.filter((item) => item.name.toLowerCase().includes(value.toLowerCase().trim()))
     : makams
 
-  const options = filteredOptions.map((item) => (
+  const sortFilteredOptions = filteredOptions.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1
+    }
+    if (a.name > b.name) {
+      return 1
+    }
+    return 0
+  })
+
+  const options = sortFilteredOptions.map((item) => (
     <Combobox.Option value={item.name} key={item.slug} active={item.name === value}>
       {item.name}
     </Combobox.Option>
@@ -61,7 +71,7 @@ export default function Makams() {
               </Combobox.Target>
 
               <Combobox.Dropdown>
-                <Combobox.Options>
+                <Combobox.Options mah={700} style={{ overflowY: 'auto' }}>
                   {options.length === 0 ? (
                     <Combobox.Empty className='italic text-zinc-300'>Makam bulunamadı</Combobox.Empty>
                   ) : (
