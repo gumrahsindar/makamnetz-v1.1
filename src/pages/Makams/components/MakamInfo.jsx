@@ -13,11 +13,9 @@ export default function MakamInfo({ selectedMakam }) {
           {selectedMakam ? selectedMakam.desc : 'Select a makam to see the description.'}
         </Text>
         <Divider />
-        <AudioPlayer src={
-          selectedMakam
-            ? selectedMakam.audio
-            : 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
-        } />
+        <AudioPlayer
+          src={selectedMakam ? selectedMakam.audio : 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'}
+        />
       </Stack>
     </Box>
   )
