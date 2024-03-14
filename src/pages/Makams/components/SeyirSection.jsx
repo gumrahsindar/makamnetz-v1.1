@@ -2,7 +2,7 @@ import { Flex, Stack, Text } from '@mantine/core'
 
 export default function SeyirSection({ selectedMakam }) {
   return (
-    <Stack className='relative h-[34rem] flex-col justify-around space-y-6 rounded-md bg-gradient-to-r from-yellow-100 to-yellow-300 px-4 py-4 text-center lg:w-[20rem] lg:py-12 xl:px-8'>
+    <Stack className='relative h-[34rem] flex-col space-y-6 rounded-md bg-gradient-to-r from-yellow-100 to-yellow-300 px-4 py-4 text-center lg:w-[24rem] lg:py-12 xl:px-8'>
       <Text className='justify-self- rounded-md bg-gradient-to-b from-yellow-400 to-yellow-500 px-10 py-2 text-xl font-bold text-white shadow-xl'>
         Seyir
       </Text>
@@ -15,7 +15,7 @@ export default function SeyirSection({ selectedMakam }) {
             return root ? (
               <Flex
                 key={i}
-                className='aspect-square items-center justify-center rounded-full bg-gradient-to-b from-yellow-400 to-yellow-700 p-2 shadow-xl'
+                className='aspect-square h-32 items-center justify-center rounded-full bg-gradient-to-b from-yellow-400 to-yellow-700 p-2 shadow-xl'
               >
                 <Text className='text-lg text-white '>
                   {root}

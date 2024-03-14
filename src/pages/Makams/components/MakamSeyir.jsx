@@ -11,8 +11,8 @@ export default function MakamSeyir({ selectedMakam }) {
         <GirisSection selectedMakam={selectedMakam} />
         <SeyirSection selectedMakam={selectedMakam} />
         <SonucSection selectedMakam={selectedMakam} />
-        <ArrowRight className='left-[30%] top-[25%]' />
-        <ArrowRight className='left-[64%] top-[25%]' />
+        <ArrowRight className='left-[27%] top-[25%]' />
+        <ArrowRight className='left-[67%] top-[25%]' />
       </Group>
     </Stack>
   )

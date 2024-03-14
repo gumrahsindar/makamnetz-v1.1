@@ -13,15 +13,17 @@ export default function Makams() {
     ? makams.filter((item) => item.name.toLowerCase().includes(value.toLowerCase().trim()))
     : makams
 
-  const sortFilteredOptions = filteredOptions.sort((a, b) => {
-    if (a.name < b.name) {
-      return -1
-    }
-    if (a.name > b.name) {
-      return 1
-    }
-    return 0
-  })
+  // const sortFilteredOptions = filteredOptions.sort((a, b) => {
+  //   if (a.name < b.name) {
+  //     return -1
+  //   }
+  //   if (a.name > b.name) {
+  //     return 1
+  //   }
+  //   return 0
+  // })
+
+  const sortFilteredOptions = filteredOptions.sort((a, b) => a.name.localeCompare(b.name, 'tr'))
 
   const options = sortFilteredOptions.map((item) => (
     <Combobox.Option value={item.name} key={item.slug} active={item.name === value}>
