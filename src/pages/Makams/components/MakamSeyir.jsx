@@ -6,13 +6,13 @@ import { ArrowRight } from '../../../components/ui/icons'
 
 export default function MakamSeyir({ selectedMakam }) {
   return (
-    <Stack className='w-9/12 rounded-md py-6 lg:my-8'>
-      <Group className='relative flex min-w-[1000px] flex-row items-center justify-center space-x-4'>
+    <Stack className='w-9/12 rounded-md py-2 lg:my-8'>
+      <Group className='relative ml-2 flex min-w-[1000px] flex-row items-center justify-center space-x-2'>
         <GirisSection selectedMakam={selectedMakam} />
         <SeyirSection selectedMakam={selectedMakam} />
         <SonucSection selectedMakam={selectedMakam} />
-        <ArrowRight className='left-[27%] top-[25%]' />
-        <ArrowRight className='left-[67%] top-[25%]' />
+        <ArrowRight className='left-[29%] top-[20%] hidden 2xl:block' />
+        <ArrowRight className='left-[69%] top-[20%] hidden 2xl:block' />
       </Group>
     </Stack>
   )

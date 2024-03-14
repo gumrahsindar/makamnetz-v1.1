@@ -1330,7 +1330,7 @@ export const makams = [
       },
       end: { root1: 'Rast', pow1: 'Rast' },
     },
-    desc: "Musiki teori tarihi boyunca tüm teori kitaplarında ana makamlar kategorisinde değerlendirilen Rast makamı birçok ekolde temel makam olarak kabul edilmiştir. Yakup Fikret Kutluğ'a göre makamın başlangıç noktası Rast perdesi üzerindeki Rast çeşnisidir. Daha sonra eksenini Neva bölgesine taşır. Bu eksende Rast ve Buselik çeşnileri gösterir. Ardından Segâh ekseninde Segâh çeşnisini gösterip Rast üzerinde Rast çeşniyle karar vererek başladığı noktaya geri döner. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni.",
+    desc: 'Musiki teori tarihi boyunca tüm teori kitaplarında ana makamlar kategorisinde değerlendirilen Rast makamı birçok ekolde temel makam olarak kabul edilmiştir. Makamın başlangıç noktası Rast perdesi üzerindeki Rast çeşnisidir. Daha sonra eksenini Neva bölgesine taşır. Bu eksende Rast ve Buselik çeşnileri gösterir. Ardından Segâh ekseninde Segâh çeşnisini gösterip Rast üzerinde Rast çeşniyle karar vererek başladığı noktaya geri döner. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
     audio: '/records/makamlar/rast.mp3',
   },
   {
@@ -1369,7 +1369,7 @@ export const makams = [
       },
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
-    desc: "Yakup Fikret Kutluğ'a göre Uşşak makamı Dügah üzerinden Uşşak çeşniyle başlar. Daha sonra Neva perdesi üzerinde Buselik çeşnisini gösterir. Ardından seyrine Segah perdesinde Segah çeşnisini göstererek devam eder. Dügah perdesindeki Uşşak çeşnisiyle karar eder. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni.",
+    desc: 'Uşşak makamı Dügah üzerinden Uşşak çeşniyle başlar. Daha sonra Neva perdesi üzerinde Buselik çeşnisini gösterir. Ardından seyrine Segah perdesinde Segah çeşnisini göstererek devam eder. Dügah perdesindeki Uşşak çeşnisiyle karar eder. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
     audio: '/records/makamlar/ussak.mp3',
   },
   {
@@ -2248,7 +2248,7 @@ export const makams = [
         root3: 'Dügah',
         pow3: 'Uşşak',
         root4: 'Dügah',
-        row4: 'Kürdi',
+        pow4: 'Kürdi',
       },
       end: { root1: 'Acemaşiran', pow1: 'Nigar' },
     },
@@ -2364,7 +2364,7 @@ export const makams = [
         root1: 'Hüseyni',
         pow1: 'Perde',
         root2: 'Dügah',
-        row2: 'Hüseyni',
+        pow2: 'Hüseyni',
       },
       middle: {
         root1: 'Dügah',
@@ -2384,7 +2384,7 @@ export const makams = [
         root1: 'Hüseyni',
         pow1: 'Perde',
         root2: 'Dügah',
-        row2: 'Hüseyni',
+        pow2: 'Hüseyni',
       },
       middle: {
         root1: 'Hüseyni',
@@ -2434,7 +2434,7 @@ export const makams = [
         root3: 'Çargah',
         pow3: 'Nigar',
         root4: 'Çargah',
-        row4: 'Nikriz',
+        pow4: 'Nikriz',
       },
       end: { root1: 'H.Aşiran', pow1: 'Saba' },
     },
@@ -2470,7 +2470,7 @@ export const makams = [
         root1: 'Gerdaniye',
         pow1: 'Perde',
         root2: 'Neva',
-        row2: 'Rast',
+        pow2: 'Rast',
       },
       middle: {
         root1: 'Neva',
