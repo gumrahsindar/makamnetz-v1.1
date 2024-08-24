@@ -452,7 +452,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Hüseyni' },
     },
     desc: 'Muhayyer perdesi ile başlayarak Hüseyni perdesindeki Uşşak çeşnisiyle başlangıç yapar. Daha sonra Hüseyni perdesi üzerindeki Uşşak çeşnisi Hüseyni çeşnisine dönüşür. Dügah perdesindeki Hüseyni çeşni ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/gülizar.mp3',
+    audio: '/records/makamlar/gulizar.mp3',
   },
   {
     name: 'Gerdaniye-1',
@@ -2022,7 +2022,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Kürdi' },
     },
     desc: 'Gerdaniye ekseninde Kürdi çeşnisi ile başlar ve Neva perdesindeki Kürdi çeşnisine geçer. Gerdaniye perdesinde bu sefer Buselik çeşnisini gösterir. Oradan Neva perdesindeki Hicaz çeşnisine geçer. Rast üzerindeki Kürdi çeşnisi ile seyrini tamamlar. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/kurdilihicazkar.mp3',
   },
   {
     name: 'Hicazkar',
