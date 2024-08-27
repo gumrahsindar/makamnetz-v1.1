@@ -978,7 +978,7 @@ export const makams = [
       end: { root1: 'Yegah', pow1: 'Hicaz' },
     },
     desc: 'Neva üzerindeki Hicaz çeşnisi ile başlar. Gerdaniye perdesindeki Buselik çeşnisini gösterdikten sonra Çargah perdesindeki Nikriz çeşnisine geçer. Rast perdesindeki Buselik çeşnisini gösterip Yegah perdesindeki Hicaz çeşnisi ile seyrini tamamlar. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/sedaraban_1.mp3',
   },
   {
     name: 'Geveşt',
@@ -998,7 +998,7 @@ export const makams = [
       end: { root1: 'Irak', pow1: 'Segah' },
     },
     desc: 'Rast perdesinde Rast çeşnisi ile başlar ve yine aynı eksende Buselik çeşnisine geçer. Yegah eksenindeki Rast çeşnisi gösterip Irak perdesinde Segah çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/gevest.mp3',
   },
   {
     name: 'Şevkefza',
@@ -1016,7 +1016,7 @@ export const makams = [
       end: { root1: 'Acemaşiran', pow1: 'Nigar' },
     },
     desc: 'Çargah perdesindeki Hicaz çeşnisi ile başlar. Gerdaniye üzerindeki Hicaz çeşnisine geçer ve buradan Acemaşiran perdesindeki Nigar çeşnisine geçerek seyrini tamamlar. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/sevkefza.mp3',
   },
   {
     name: 'Yegah-1',
@@ -1038,7 +1038,7 @@ export const makams = [
       end: { root1: 'Irak', pow1: 'Segah' },
     },
     desc: 'Neva perdesindeki Rast çeşnisi ile başlar. Neva üzerindeki Buselik çeşnisini gösterip Buselik üzerindeki Nişabur çeşnisine geçer. Yegah perdesindeki Rast çeşnisi gösterir ve Irak üzerinde Segah çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/yegah_1.mp3',
   },
   {
     name: 'Dilkeşide',
@@ -1058,7 +1058,7 @@ export const makams = [
       end: { root1: 'Yegah', pow1: 'Buselik' },
     },
     desc: 'Hüseyni perdesinden başlayan bir Dügah eksenindeki Hüseyni çeşnisi ile başlar. Dügah perdesinde Kürdi çeşnisini gösterir ve Yegah perdesindeki Buselik ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/dilkeside.mp3',
   },
   {
     name: 'Hüseyniaşiran-1',
@@ -1078,7 +1078,7 @@ export const makams = [
       end: { root1: 'H.Aşiran', pow1: 'Uşşak' },
     },
     desc: 'Hüseyni perdesiyle Dügah eksenindeki Hüseyni çeşnisi ile başlar. Hüseyni perdesinde Uşşak çeşnisi gösterip Hüseyniaşiran perdesndeki Uşşak çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/huseyniasiran_1.mp3',
   },
   {
     name: 'Nühüft',
@@ -1100,7 +1100,7 @@ export const makams = [
       end: { root1: 'H.Aşiran', pow1: 'Uşşak' },
     },
     desc: 'Neva eksenindeki Buselik çeşnisi ile başlar. Dügah perdesindeki Rast çeşnisi gösterir ve oradan Neva eksenindeki Rast çeşnisine geçer. Dügah perdesinde Uşşak çeşnisi gösterdikten sonra Hüseyniaşiran perdesindeki Uşşak çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/nuhuft.mp3',
   },
   {
     name: 'Zirefkend',
@@ -1124,7 +1124,7 @@ export const makams = [
       end: { root1: 'H.Aşiran', pow1: 'Saba' },
     },
     desc: 'Muhayyer üzerindeki Nigar çeşni ile başlayıp Gerdaniye perdesindeki Nigar çeşnisine geçer. Hüseyni eksenindeki Buselik çeşnisini gösterir. Çargah ekseninde önce Nigar sonra Nikriz çeşnisi yapar ve Hüseyniaşiran perdesinde Saba çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/zirefkend.mp3',
   },
   {
     name: 'Şevkütarab',
@@ -1144,7 +1144,7 @@ export const makams = [
       end: { root1: 'Acemaşiran', pow1: 'Nigar' },
     },
     desc: 'Dügah perdesinde Saba çeşnisi ile başlar ve oradan Çargah perdesindeki Hicaz çeşnisine geçer. Dügah üzerinde Kürdi çeşnisi yapıp oradan Acemaşiran perdesindeki Nigar ile seyrini sonlandırır. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/sevkutarab.mp3',
   },
   {
     name: 'Şevkidil',
@@ -1164,7 +1164,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Rast' },
     },
     desc: 'Gerdaniye perdesiyle Neva perdesindeki Rast çeşnisi yapar ve Neva perdesindeki Hicaz çeşnisine geçer. Rast perdesinde Rast çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/sevkidil.mp3',
   },
   {
     name: 'Pesendide',
@@ -1184,7 +1184,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Rast' },
     },
     desc: 'Neva ekseninde bir Buselik çeşnisi ile başlar. Buselik perdesinde Nişabur çeşnisini gösterdikten sınra Dügah perdesindeki Rast çeşnisine geçer. Rast perdesindeki Rast çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/pesendide.mp3',
   },
   {
     name: 'Büzürg',
@@ -1204,7 +1204,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Nigar' },
     },
     desc: 'Çargah perdesindeki Nigar çeşnisi ile başlar. Dügah perdesindeki Buselik çeşnisini gösterir.Hüseyniaşiran perdesinde Nişabur yaptıktan sonra Rast perdesinde Nigar çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/buzurg.mp3',
   },
   {
     name: 'Rast Maye',
@@ -1226,7 +1226,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Rast' },
     },
     desc: 'Segah perdesinde Segah çeşnisi ile başlayıp Rast perdesinde Rast çeşnisi yapar. Dügah ekseninde Uşşak çeşnisi yapıp Neva p perdesindeki Rast çeşnisine geçeri Rast perdesindeki Rast çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/rast_maye.mp3',
   },
   {
     name: 'Küçek-1',
@@ -1250,7 +1250,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Saba' },
     },
     desc: 'Çargah perdesiyle Dügah perdesindeki Saba çeşnisi ile başlar. Ardından Dügah perdesindeki Hüseyni çeşnsini gösterir. Hüseyni üzerindeki Uşşak çeşnisi ile devam eder ve Çargah perdesindeki Hicaz çeşnisine geçer. Dügah perdesindeki Saba çeşni ile karar verir.  Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/kucek_1.mp3',
   },
   {
     name: 'Sünbüle',
@@ -1270,7 +1270,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Saba' },
     },
     desc: 'Muhayyer perdesi ile başlayan Acem üzerindeki Nigar çeşnisi ile başlar.Çargah perdesindeki Hicaz çeşnisini gösterir ve Dügah perdesindeki Saba çeşnisi ile biter. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/sunbule.mp3',
   },
   {
     name: 'Nişaburek',
@@ -1288,7 +1288,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Rast' },
     },
     desc: 'Hüseyni perdesinde Buselik çeşnisi ile başlar. Hüseyni perdesinde Rast gösterip Dügah perdesindeki Rast çeşnisi ile sonlanır. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/nisaburek.mp3',
   },
   {
     name: 'Yeni Sipihr',
@@ -1312,7 +1312,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Hüseyni' },
     },
     desc: 'Muhayyer perdesindeki Buselik ile başlar. Hüseyni perdesinde önce Hicaz sonra Uşşak çeşnilerini gösterir. Neva perdesin Rast çeşnisi yapar ve Dügah perdesinde Hicaz çeşnisine geçer. Dügah perdesindeki Hüseyni çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/yeni_sipihr.mp3',
   },
   {
     name: 'Segah-2',
@@ -1332,7 +1332,7 @@ export const makams = [
       end: { root1: 'Segah', pow1: 'Segah' },
     },
     desc: 'Rast perdesinde Rast çeşnisi ile başlar. Segah perdesinde Segah çeşnisini gösterip Dügah perdesindeki Uşşak çeşnisine geçer. Segah üzerindeki Segah çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Dimitri Kantemir',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/segah_2.mp3',
   },
   {
     name: 'Eviç-2',
@@ -1354,7 +1354,7 @@ export const makams = [
       end: { root1: 'Irak', pow1: 'Segah' },
     },
     desc: 'Neva perdesinde Rast çeşnisi ile başlar. Eviç perdesinde Segah çeşnisini gösterip Neva perdesindeki Buselik çeşnisine geçer. Dügah üzerindeki Uşşak çeşnisini gösterip Irak perdesindeki Segah çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Dimitri Kantemir',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/evic_2.mp3',
   },
   {
     name: 'Gerdaniye-2',
@@ -1374,7 +1374,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
     desc: 'Gerdaniye perdeden başlayan bir Neva perdesindeki Rast çeşnisi ile başlar. Rast perdesinde Rast çeşnisini gösterip Dügah perdesindeki Uşşak çeşnisine ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Dimitri Kantemir',
-    audio: '/records/makamlar/***.mp3',
+    audio: '/records/makamlar/gerdaniye_2.mp3',
   },
   {
     name: 'Kürdi-2',
@@ -1394,7 +1394,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Kürdi' },
     },
     desc: 'Rast perdesinde Buselik çeşnisi ile başlar. Dügah perdesinde Kürdi çeşnisini gösterip Neva üzerinde Buselik çeşnisine geçer. Dügah perdesindeki Kürdi çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Dimitri Kantemir',
-    audio: '/records/makamlar/kurdi.mp3',
+    audio: '/records/makamlar/kurdi_2.mp3',
   },
   {
     name: 'Bayati-2',
@@ -1414,7 +1414,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
     desc: 'Neva perdesinden başlayan bir Dügah perdesindeki Uşşak çeşnisi ile başlar. Neva perdesinde Hicaz çeşnisini gösterip Dügah perdesindeki Uşşak çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Dimitri Kantemir',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/bayati_2.mp3',
   },
   {
     name: 'Şehnaz-2',
@@ -1432,7 +1432,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uzzal' },
     },
     desc: 'Hüseyni perdesindeki Hicaz çeşnisi ile başlar. Ardından Neva perdesinde Nikriz çeşnisine geçer. Daha sonra Dügah perdesindeki Uzzal çeşnisi ile seyrini sonlandırır. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Dimitri Kantemir',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/sehnaz_2.mp3',
   },
   {
     name: 'Rast-2',
@@ -1452,7 +1452,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Rast' },
     },
     desc: 'Rast üzerindeki Rast çeşnisi ile başlangıç noktasını oluşturur. Ardından Neva perdesindeki Buselik çeşnisine geçer. Önce Yegah perdesindeki Rast çeşnisini gösterir ve daha sonra Rast perdesinde Rast çeşnisi ile seyrini tamamlar. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/rast_2.mp3',
   },
   {
     name: 'Segah-3',
@@ -1474,7 +1474,7 @@ export const makams = [
       end: { root1: 'Segah', pow1: 'Segah' },
     },
     desc: 'Segah perdesinden başlayan bir Rast üzerindeki Rast çeşnisi ile başlangıç noktasını oluşturur. Ardından Neva perdesindeki Rast çeşnisine geçer. Yegah perdesindeki Rast çeşnisini gösterir ve daha sonra Segah perdesinde Segah çeşnisi ile seyrini tamamlar. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/segah_3.mp3',
   },
   {
     name: 'Neva-2',
@@ -1492,7 +1492,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
     desc: 'Eviç perdesi üzerindeki Segah çeşnisi ile seyrine başlar. Önce Neva perdesinde Rast yapıp daha sonra Dügah perdesindeki Uşşak çeşnisi ile seyrini sonlandırır. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/neva_2.mp3',
   },
   {
     name: 'Hüseyni-2',
@@ -1512,7 +1512,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Hüseyni' },
     },
     desc: 'Hüseyni perdesinden başlayan Dügah perdesindeki Hüseyni çeşnisi ile başlar. Hüseyni perdesinde Uşşak çeşnisi yapar. Dügah perdesinde Hüseyni çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/huseyni_2.mp3',
   },
   {
     name: 'Suzidilara-2',
@@ -1534,7 +1534,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Nigar' },
     },
     desc: 'Buselik perdesinden başlayan Rast merkezli Nigar çeşnisi ile başlar. Daha sonra Çargah perdesindeki Nigar çeşnisine geçer. Yegah perdesindeki Rast çeşnisini gösterdikten sonra Rast üzerindeki Nigar çeşnisi ile biter. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/suzidilara_2.mp3',
   },
   {
     name: 'Hicaz-2',
@@ -1554,7 +1554,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Hicaz' },
     },
     desc: 'Neva perdesinden başlayan Dügah perdesindeki Hicaz çeşnisi ile başlar. Neva üzerindeki Buselik çeşnisini gösterdikten sonra Dügah perdesindeki Hicaz çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/hicaz_2.mp3',
   },
   {
     name: 'Nihavend-2',
@@ -1576,7 +1576,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Buselik' },
     },
     desc: 'Neva perdesiyle ile başlar. Ardından Rast perdesindeki Buselik çeşnisi geçer. Önce Neva perde Kürdi çeşnisini daha sonra ise Buselik çeşnisi gösterir. Rast perdesindeki Buselik çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/nihavend_2.mp3',
   },
   {
     name: 'Irak-2',
@@ -1600,7 +1600,7 @@ export const makams = [
       end: { root1: 'Irak', pow1: 'Segah' },
     },
     desc: 'Dügah perdesiyle başlar ve hemen ardından Irak perdesindeki Segah çeşnisine geçer. Neva perdesinde Rast çeşnisini gösterdikten sonra Dügah perdesindeki Uşşak çeşnisini gösterir. Yegah perdesindeki Rast çeşnisine geçer. Irak perdesindeki Segah çeşnisi ile sonlanır. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/irak_2.mp3',
   },
   {
     name: 'Uşşak-2',
@@ -1620,7 +1620,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
     desc: 'Neva perdesi ile başlar ve Dügah eksenindeki Uşşak çeşnisine geçer. Neva perdesindeki Buselik çeşnisini gösterdikten sonra Dügah perdesindeki Uşşak çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/ussak_2.mp3',
   },
   {
     name: 'Ferahfeza',
@@ -1642,7 +1642,7 @@ export const makams = [
       end: { root1: 'Yegah', pow1: 'Buselik' },
     },
     desc: 'Çargah eksenindeki Nigar çeşnisi ile başlar. Neva Buselik çeşnisini gösterdikten sonra Dügah perdesindeki Uşşak çeşnisini gösterir. Daha sonra Acemaşiran perdesindeki Nigar çeşnisine geçer. Yegah perdesindeki Buselik çeşnisi ile biter. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Abdülbaki Nasır Dede',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/ferahfeza.mp3',
   },
   {
     name: 'Rast-3',
@@ -1666,7 +1666,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Rast' },
     },
     desc: 'Rast eksenindeki Rast çeşni ile başlar. Neva ekseninde önce Rast çeşnisini daha sonra Buselik çeşnisini gösterir. Yegah perdesindeki Rast çeşnisine geçer. Rast perdesinde Nikriz çeşnisini gösterir. Rast ekseninde Rast çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Haşim Bey',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/rast_3.mp3',
   },
   {
     name: 'Nikriz-2',
@@ -1686,7 +1686,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Nikriz' },
     },
     desc: 'Rast perdesiyle başlar ve hemen Neva üzerindeki Buselik çeşnisine geçer. Neva perdesindeki Rast çeşnisini gösterdikten sonra Rast üzerindeki Nikriz çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Haşim Bey',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/nikriz_2.mp3',
   },
   {
     name: 'Suzinak (Zirgülesiz)-2',
@@ -1706,7 +1706,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Rast' },
     },
     desc: 'Çargah perdesindeki Nikriz perdesiyle başlar ve Gerdaniye perdesindeki Buselik çeşnine geçer. Ardından Neva üzerindeki Hicaz çeşnini gösterir. Rast eksenindeki Rast çeşnisi ile sona erer. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Haşim Bey',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/suzinak_zirgulesiz_2.mp3',
   },
   {
     name: 'Uşşak-3',
@@ -1726,7 +1726,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
     desc: 'Rast perdesiyle başlar ve hemen Dügah üzerindeki Uşşak çeşnisine geçer. Neva perdesindeki Buselik çeşnisini gösterdikten sonra Dügah üzerindeki Uşşak çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Haşim Bey',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/ussak_3.mp3',
   },
   {
     name: 'Saba-2',
@@ -1746,7 +1746,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Saba' },
     },
     desc: 'Segah perdesiyle başlayan Dügah üzerindeki Saba çeşnisiyle başlar. Çargah perdesindeki Hicaz çeşnisini gösterdikten sonra Dügah perdesindeki Saba çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Haşim Bey',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/saba_2.mp3',
   },
   {
     name: 'Neva-3',
@@ -1766,7 +1766,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
     desc: 'Nim Hicaz perdesiyle başlayan Neva üzerindeki Rast çeşnisiyle başlar. Daha sonra Neva perdesindeki Buselik çeşnine geçer ve Dügah üzerindeki Uşşak çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Haşim Bey',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/neva_3.mp3',
   },
   {
     name: 'Hüseyni-3',
@@ -1786,7 +1786,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
     desc: 'Neva perdesiyle başlar ve hemen Hüseyni perdesindeki Uşşak çeşnisine geçer. Muhayyer perdesindeki Uşşak çeşnisini gösterir. Dügah perdesindeki Uşşak çeşni ile sona erer. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Haşim Bey',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/huseyni_3.mp3',
   },
   {
     name: 'Acem-2',
@@ -1804,7 +1804,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
     desc: 'Neva perdesindeki Buselik çeşnisiyle başlar. Daha sonra Çargah perdesindeki Nigar çeşnisine geçer. Dügah perdesindeki Uşşak çeşni ile sona erer. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Haşim Bey',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/acem_2.mp3',
   },
   {
     name: 'Buselik-2',
@@ -1828,7 +1828,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Buselik' },
     },
     desc: 'Dügah ekseninde Buselik çeşnisiyle başlar. Hüseyni ekseninde sırasıyla Uşşak, Hicaz ve Kürdi çeşnilerini gösterir. Neva perdesinde Hicaz çeşnisi yapar. Dügah perdesinde Buselik çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/buselik_2.mp3',
   },
   {
     name: 'Kürdi-3',
@@ -1848,7 +1848,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Kürdi' },
     },
     desc: 'Neva ekseninde Buselik çeşnisiyle başlar. Neva perdesindeki Kürdi çeşnisine geçer. Neva perdesindeki Buselik çeşnisini gösterdikten sonra Dügah perdesinde Kürdi çeşnisi ile sona erir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/kurdi_3.mp3',
   },
   {
     name: 'Neva-4',
@@ -1866,7 +1866,7 @@ export const makams = [
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
     desc: 'Neva perdesindeki Rast çeşnisiyle başlangıç noktasını oluşturur. Daha sonra Muhayyer ekseninde Buselik çeşnisine geçer. Dügah perdesinde Uşşak çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/neva_4.mp3',
   },
   {
     name: 'Tahir-2',
@@ -1910,7 +1910,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Rast' },
     },
     desc: 'Neva eksenindeki Hicaz çeşnisiyle başlar. Önce Çargah ekseninde Nikriz çeşnisini gösterir ve ardından Segah perdesinde Hüzzam çeşnisine geçer. Neva Buselik çeşnisini yapar ve Rast perdesinde Rast çeşnini gösterip karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/suzinak_zirgulesiz_3.mp3',
   },
   {
     name: 'Nihavend-3',
@@ -1934,7 +1934,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Buselik' },
     },
     desc: 'Rast perdesindeki Buselik çeşnisiyle başlar. Neva ekseninde sırasıyla Kürdi, Hicaz ve Uşşak çeşnilerini gösterir. Ardından Kürdi perdesinde Nigar çeşnisine geçer. Dügah perdesindeki Buselik çeşnisini gösterip karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/nihavend_3.mp3',
   },
   {
     name: 'Şedaraban-2',
@@ -1954,7 +1954,7 @@ export const makams = [
       end: { root1: 'Yegah', pow1: 'Hicaz' },
     },
     desc: 'Neva eksenide Hicaz çeşniyle başlayıp Dügah perdesindeki Hicaz çeşnisine geçer. Ardından Rast perdesinde Nikriz yapar ve Yegah perdesindeki Hicaz çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/sedaraban_2.mp3',
   },
   {
     name: 'Hüzzam-2',
@@ -1978,7 +1978,7 @@ export const makams = [
       end: { root1: 'Segah', pow1: 'Segah' },
     },
     desc: 'Segah eksenide Hüzzam çeşniyle başlayıp Eviç perdesindeki Hicaz çeşnisine geçer. Ardından Gerdaniye perdesinde Buselik yapar ve Neva perdesindeki Uşşak çeşnisini ile gösterir. Neva perdesindeki Hicaz çeşnisini gösterdikten sonra Segah üzerinde Segah çeşnisi ile sona erir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/huzzam_2.mp3',
   },
   {
     name: 'Mahur-2',
@@ -2000,7 +2000,7 @@ export const makams = [
       end: { root1: 'Rast', pow1: 'Nigar' },
     },
     desc: 'Gerdaniye eksenindeki Nigar çeşnisi ile başlar ve Neva ekseinindeki Nigar çeşnisine geçer. Hüseyni perdesinde Buselik çeşnini gösterip Çargah perdesindeki Nigar çeşnisine gösterir. Rast perdesinde Nigar çeşni ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/mahur_2.mp3',
   },
   {
     name: 'Kürdilihicazkar',
@@ -2082,7 +2082,7 @@ export const makams = [
       end: { root1: 'Yegah', pow1: 'Hicaz' },
     },
     desc: 'Neva ekseninde Hicaz çeşnisiyle başlar ve Gerdaniye perdesindeki Buselik çeşnisine geçer. Oradan Dügah perdesindeki Kürdi çeşnisini gösterir. Yegah ekseninde Hicaz çeşnisiyle karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Rauf Yekta',
-    audio: '/records/makamlar/bayati.mp3',
+    audio: '/records/makamlar/sedaraban_3.mp3',
   },
   {
     name: 'Hüseyni-4',
