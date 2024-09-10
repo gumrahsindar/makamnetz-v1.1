@@ -30,7 +30,7 @@ const cardItems = [
 export default function HomeCards() {
   return cardItems.map((item, index) => (
     <Link key={index} to={item.link} className='duration-300 hover:scale-105'>
-      <article className='flex min-h-[500px] flex-col gap-6 rounded-lg bg-zinc-600 px-5 pt-4 shadow-2xl lg:min-h-[565px]'>
+      <article className='flex min-h-[500px] flex-col gap-6 rounded-lg bg-zinc-600 px-4 pt-4 shadow-2xl lg:min-h-[565px]'>
         <h2 className='font-baskerville mt-4 text-center text-4xl font-bold text-yellow-400 lg:text-4xl xl:text-5xl'>
           {item.title}
         </h2>
