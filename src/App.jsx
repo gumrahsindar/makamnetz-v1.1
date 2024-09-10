@@ -4,22 +4,23 @@ import { theme } from './components/ui/theme'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import CesniWorld from './pages/CesniWorld/CesniWorld'
 import Makams from './pages/Makams/Makams'
-import MakamNetwok from './pages/MakamNetwork/MakamNetwok'
+import MakamNetwork from './pages/MakamNetwork/MakamNetwork'
+import Home from './pages/Home/Home'
 
 function App() {
   return (
     <MantineProvider theme={theme} defaultColorScheme='dark'>
       <Container maw='90rem'>
         <Router>
-          <header>
-            <Navbar />
-          </header>
           <main>
+            <header>
+              <Navbar />
+            </header>
             <Routes>
-              <Route path='/' element={<CesniWorld />} />
+              <Route path='/' element={<Home />} />
               <Route path='/cesni-world' element={<CesniWorld />} />
               <Route path='/makams' element={<Makams />} />
-              <Route path='/makam-network' element={<MakamNetwok />} />
+              <Route path='/makam-network' element={<MakamNetwork />} />
             </Routes>
           </main>
         </Router>
