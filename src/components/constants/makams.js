@@ -79,10 +79,15 @@ export const makams = [
     slug: 'hüseyni',
     label: 'Temel Makamlar',
     journey: {
-      begin: { root1: 'Hüseyni', pow1: 'Perde', root2: 'Hüseyni', pow2: 'Uşşak' },
+      begin: {
+        root1: 'Hüseyni',
+        pow1: 'Perde',
+        root2: 'Hüseyni',
+        pow2: 'Uşşak',
+      },
       middle: {
         root1: 'Çargah',
-        pow2: 'Nigar',
+        pow1: 'Nigar',
       },
       end: { root1: 'Dügah', pow1: 'Hüseyni' },
     },
@@ -873,7 +878,7 @@ export const makams = [
       },
       end: { root1: 'Irak', pow1: 'Hicaz' },
     },
-    desc: 'Eviç eksenindeki Segah çeşni ile başlar. Sonra yine bu eksende Hicaz çeşnisi gösterir. Nim Hicaz perdesinde Müstear çeşnisi gösterdikten sonra Irak perdesi üzerinde Hicaz çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
+    desc: 'Eviç eksenindeki Segah çeşni ile başlar. Sonra yine bu eksende Hicaz çeşnisi gösterir. Eviç perdesinde Müstear çeşnisi gösterdikten sonra Nim Hicaz perdesinde Hicaz çeşnisi yapar. Ardından Irak perdesi üzerinde Hicaz çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
     audio: '/records/makamlar/evcara.mp3',
   },
   {
@@ -1187,8 +1192,8 @@ export const makams = [
     audio: '/records/makamlar/pesendide.mp3',
   },
   {
-    name: 'Büzürg',
-    slug: 'büzürg',
+    name: 'Büzürk',
+    slug: 'büzürk',
     label: 'Temel Makamlar',
     journey: {
       begin: {
@@ -2497,7 +2502,7 @@ export const makams = [
       },
       end: { root1: 'Dügah', pow1: 'Buselik' },
     },
-    desc: 'Hüseyni perdesinde Nigar çeşnisiyle başlar. Hüseyni merkezli Kürdi çeşnisini gösterir. Dügah perdesindeki Hüseyni çeşnisini gösterdikten sonra Dügah perdesindeki Buselik çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
+    desc: 'Hüseyni perdesinde Uzzal çeşnisiyle başlar. Hüseyni merkezli Kürdi çeşnisini gösterir. Dügah perdesindeki Hüseyni çeşnisini gösterdikten sonra Dügah perdesindeki Buselik çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
     audio: '/records/makamlar/hisar_buselik.mp3',
   },
   {
@@ -2583,7 +2588,7 @@ export const makams = [
       },
       end: { root1: 'Dügah', pow1: 'Buselik' },
     },
-    desc: 'Eviç ekseninde Segah çeşnisiyle başlayıp Dügah merkezli Uşşak çeşnisini gösterir. Irak perdesinde Kürdi çeşnisi yapar. Hüseyni perdesindeki Kürdi çeşnisini gösterdikten sonra Dügah perdesindeki Buselik çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
+    desc: 'Eviç ekseninde Segah çeşnisiyle başlayıp Dügah merkezli Uşşak çeşnisini gösterir. Irak perdesinde Segah çeşnisi yapar. Hüseyni perdesindeki Kürdi çeşnisini gösterdikten sonra Dügah perdesindeki Buselik çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: Yakup Fikret Kutluğ',
     audio: '/records/makamlar/evic_buselik.mp3',
   },
   {
@@ -3033,7 +3038,7 @@ export const makams = [
       },
       end: { root1: 'Yegah', pow1: 'Kürdi' },
     },
-    desc: 'Neva eksenli Buselik çeşnisi ile başlar.Rast perdesinde Buselik çeşnisini gösterir. Yegah perdesinde Kürdi çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
+    desc: 'Neva eksenli Kürdi çeşnisi ile başlar.Rast perdesinde Buselik çeşnisini gösterir. Yegah perdesinde Kürdi çeşnisi ile karar verir. Makamın olası geçki ve genişlemeleri için bkz. Çeşni Evreni. Kaynak: İsmail Hakkı Özkan',
     audio: '/records/makamlar/ferahnuma.mp3',
   },
   {
