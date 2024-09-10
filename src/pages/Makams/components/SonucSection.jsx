@@ -9,7 +9,7 @@ export default function SonucSection({ selectedMakam }) {
       >
         Karar
       </Text>
-      <Flex className='aspect-square items-center justify-center gap-4 rounded-full bg-gradient-to-b from-red-200 to-red-600 shadow-xl '>
+      <Flex className='aspect-square items-center justify-center gap-4 rounded-full bg-gradient-to-b from-red-200 to-red-600 shadow-2xl duration-300 hover:scale-105'>
         {Array(4)
           .fill()
           .map((_, i) => {

@@ -18,7 +18,7 @@ export default function GirisSection({ selectedMakam }) {
             return root ? (
               <Flex
                 key={i}
-                className='aspect-square h-36 items-center justify-center gap-6 rounded-full bg-gradient-to-b from-blue-400 to-blue-600 shadow-xl'
+                className='aspect-square h-36 items-center justify-center gap-6 rounded-full bg-gradient-to-b from-blue-400 to-blue-600 shadow-2xl duration-300 hover:scale-105'
               >
                 <Text className='text-lg text-white'>
                   {root}
