@@ -31,10 +31,13 @@ export default function HomeCards() {
   return cardItems.map((item, index) => (
     <Link key={index} to={item.link} className='duration-300 hover:scale-105'>
       <article className='flex min-h-[500px] flex-col gap-6 rounded-lg bg-zinc-600 px-5 pt-4 shadow-2xl lg:min-h-[565px]'>
-        <h2 className='font-baskerville mt-4 text-center text-5xl font-bold text-yellow-400 lg:text-4xl xl:text-5xl'>
+        <h2 className='font-baskerville mt-4 text-center text-4xl font-bold text-yellow-400 lg:text-4xl xl:text-5xl'>
           {item.title}
         </h2>
-        <p style={{ textWrap: 'pretty' }} className='w-[34ch]  flex-grow text-xl leading-8 text-white lg:w-[27ch] '>
+        <p
+          style={{ textWrap: 'pretty' }}
+          className='w-[27ch] flex-grow  text-lg   leading-8 text-white md:w-[34ch] lg:w-[27ch] lg:text-xl '
+        >
           {item.description}
         </p>
         <div className='relative mb-10 h-52 w-full'>
