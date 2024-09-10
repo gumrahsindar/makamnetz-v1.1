@@ -18,7 +18,7 @@ export default function SeyirSection({ selectedMakam }) {
             return root ? (
               <Flex
                 key={i}
-                className='aspect-square h-36 items-center justify-center rounded-full bg-gradient-to-b from-yellow-400 to-yellow-700 p-2 shadow-xl'
+                className='aspect-square h-36 items-center justify-center rounded-full bg-gradient-to-b from-yellow-400 to-yellow-700 p-2 shadow-2xl duration-300 hover:scale-105'
               >
                 <Text className='text-lg text-white '>
                   {root}
