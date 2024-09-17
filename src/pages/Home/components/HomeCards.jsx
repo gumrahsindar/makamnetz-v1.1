@@ -30,13 +30,13 @@ const cardItems = [
 export default function HomeCards() {
   return cardItems.map((item, index) => (
     <Link key={index} to={item.link} className='duration-300 hover:scale-105'>
-      <article className='flex min-h-[500px] flex-col gap-6 rounded-lg bg-zinc-600 px-4 pt-4 shadow-2xl lg:min-h-[565px]'>
-        <h2 className='font-baskerville mt-4 text-center text-4xl font-bold text-yellow-400 lg:text-4xl xl:text-5xl'>
+      <article className='flex min-h-[500px] flex-col gap-6 rounded-lg bg-zinc-800 px-4 pt-4 shadow-2xl lg:min-h-[565px]'>
+        <h2 className='font-baskerville mt-4 text-center text-3xl font-bold text-yellow-400  xl:text-4xl'>
           {item.title}
         </h2>
         <p
           style={{ textWrap: 'pretty' }}
-          className='w-[27ch] flex-grow  text-lg   leading-8 text-white md:w-[34ch] lg:w-[27ch] lg:text-xl '
+          className='text-md w-[40ch]  flex-grow   leading-8 text-white lg:w-[30ch] lg:text-lg '
         >
           {item.description}
         </p>

@@ -1,35 +1,47 @@
-import { Flex, Stack, Text } from '@mantine/core'
+import { Flex, Card, Text } from '@mantine/core'
 
 export default function GirisSection({ selectedMakam }) {
   return (
-    <Stack className='h-[32rem]  w-[32%] space-y-6 rounded-md bg-gradient-to-r from-blue-100 to-blue-300 px-4 py-4 text-center  lg:py-12 xl:px-8'>
-      <Text
-        ff={'Inder'}
-        className='mb-6 rounded-md bg-gradient-to-b from-blue-400 to-blue-600 px-10 py-2 text-xl font-bold text-white shadow-xl'
-      >
-        Başlangıç
-      </Text>
-      <Flex className='aspect-square items-center justify-center gap-4 px-4'>
-        {Array(4)
-          .fill()
-          .map((_, i) => {
-            const root = selectedMakam?.journey.begin[`root${i + 1}`]
-            const pow = selectedMakam?.journey.begin[`pow${i + 1}`]
-            return root ? (
-              <Flex
-                key={i}
-                className='aspect-square h-36 items-center justify-center gap-6 rounded-full bg-gradient-to-b from-blue-400 to-blue-600 shadow-2xl duration-300 hover:scale-105'
-              >
-                <Text className='text-lg text-white'>
-                  {root}
-                  <Text component='sup' fz='xs' fs='italic'>
-                    {pow}
+    <Card
+      miw={{ base: 350, sm: 450, lg: 250 }}
+      maw={{ md: 250 }}
+      radius={'md'}
+      className=' bg-gradient-to-r from-blue-100 to-blue-300'
+    >
+      <Flex gap={50} direction={'column'}>
+        <Text
+          ff={'Inder'}
+          ta={'center'}
+          s
+          fw={'bold'}
+          py={8}
+          c={'white'}
+          className='rounded-md bg-gradient-to-b from-blue-400 to-blue-600'
+        >
+          Başlangıç
+        </Text>
+        <Flex wrap={'wrap'} gap={12} justify={'center'}>
+          {Array(4)
+            .fill()
+            .map((_, i) => {
+              const root = selectedMakam?.journey.begin[`root${i + 1}`]
+              const pow = selectedMakam?.journey.begin[`pow${i + 1}`]
+              return root ? (
+                <Flex
+                  key={i}
+                  className='aspect-square h-36 items-center justify-center gap-6 rounded-full bg-gradient-to-b from-blue-400 to-blue-600 shadow-2xl duration-300 hover:scale-105'
+                >
+                  <Text className='text-lg text-white'>
+                    {root}
+                    <Text component='sup' fz='xs' fs='italic'>
+                      {pow}
+                    </Text>
                   </Text>
-                </Text>
-              </Flex>
-            ) : null
-          })}
+                </Flex>
+              ) : null
+            })}
+        </Flex>
       </Flex>
-    </Stack>
+    </Card>
   )
 }
