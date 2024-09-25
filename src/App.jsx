@@ -6,6 +6,7 @@ import CesniWorld from './pages/CesniWorld/CesniWorld'
 import Makams from './pages/Makams/Makams'
 import MakamNetwork from './pages/MakamNetwork/MakamNetwork'
 import Home from './pages/Home/Home'
+import Info from './pages/Info/Info'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Route path='/cesni-world' element={<CesniWorld />} />
               <Route path='/makams' element={<Makams />} />
               <Route path='/makam-network' element={<MakamNetwork />} />
+              <Route path='/info' element={<Info />} />
             </Routes>
           </main>
         </Router>
