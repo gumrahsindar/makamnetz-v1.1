@@ -76,13 +76,13 @@ export default function Navbar() {
               >
                 <IconBrandGithub size={25} />
               </Anchor>
-              <Anchor
+              {/* <Anchor
                 className='text-gray-400 duration-300 hover:text-yellow-400'
                 target='_blank'
                 href='https://youtube.com'
               >
                 <IconLanguage size={25} />
-              </Anchor>
+              </Anchor> */}
             </Flex>
           </>
         )}
