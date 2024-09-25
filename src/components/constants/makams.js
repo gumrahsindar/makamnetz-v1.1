@@ -210,7 +210,7 @@ export const makams = [
         root1: 'Neva',
         pow1: 'Perde',
         root2: 'Dügah',
-        pow: 'Uşşak',
+        pow2: 'Uşşak',
       },
       middle: {
         root1: 'Neva',
@@ -1418,7 +1418,7 @@ export const makams = [
       },
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
-    desc: 'Neva perdesinden başlayan bir Dügah perdesindeki Uşşak çeşnisi ile başlar. Neva perdesinde Hicaz çeşnisini gösterip Dügah perdesindeki Uşşak çeşnisi ile karar verir.',
+    desc: 'Neva yüzünden hareketle Dügah perdesindeki Uşşak çeşnisi ile başlar. Neva perdesinde Hicaz çeşnisini gösterip Dügah perdesindeki Uşşak çeşnisi ile karar verir.',
     audio: '/records/makamlar/bayati_kantemir.mp3',
   },
   {
@@ -2170,7 +2170,7 @@ export const makams = [
       },
       end: { root1: 'Dügah', pow1: 'Uşşak' },
     },
-    desc: 'Neva perdesinden başlayan bir Dügah perdesindeki Uşşak çeşnisi ile başlar. Neva merkezli Buselik çeşnisine geçer. Çargah perdesindeki Nigar çeşnisini gösterip Dügah perdesindeki Uşşak çeşnisi ile sona erer.',
+    desc: 'Neva yüzünden hareketle Dügah perdesindeki Uşşak çeşnisi ile başlar. Neva merkezli Buselik çeşnisine geçer. Çargah perdesindeki Nigar çeşnisini gösterip Dügah perdesindeki Uşşak çeşnisi ile sona erer.',
     audio: '/records/makamlar/bayati_yekta.mp3',
   },
   {
