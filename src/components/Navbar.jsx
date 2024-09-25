@@ -9,7 +9,7 @@ const links = [
   // uncomment when hardcoding is removed
   // { name: 'ÇEŞNİ EVRENİ', href: '/cesni-world' },
   { name: 'Makamlar', href: '/makams' },
-  { name: 'Makam Ağı', href: '/makam-network' },
+  { name: 'Makam Ağı', href: 'https://makam-netzfrontend.vercel.app/makam_network' },
 ]
 
 export default function Navbar() {
@@ -54,6 +54,12 @@ export default function Navbar() {
                   {link.name}
                 </Anchor>
               ))}
+              <Link
+                className='font-inder text-lg font-semibold uppercase text-gray-100 duration-300 hover:text-yellow-400'
+                to='/info'
+              >
+                BİLGİ
+              </Link>
             </Flex>
             <Flex gap={16} visibleFrom='sm'>
               <Anchor
