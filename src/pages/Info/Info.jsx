@@ -119,7 +119,7 @@ export default function Info() {
         </li>
       </ul>
       <h2 className='mt-10 inline-block scroll-mt-10 text-lg font-semibold text-yellow-400 underline-offset-4'>
-        MakamNetz Youtube sayfası:
+        MakamNetz YouTube sayfası:
       </h2>
       <a
         className='ml-2 mt-4 inline-block underline duration-300 hover:text-yellow-300'
