@@ -23,7 +23,7 @@ const cardItems = [
       'Makam özelinde Perde ve Çeşnilerin birbirleri ile olan ilişkilerini değerlendirin. Farklı makamlar arasında geçiş yapabilmek için gerekli olan ortak yapıları inceleyin.',
     image: '/images/home-makam-network.png',
     alt: 'makam network page screenshot',
-    link: '/makam-network',
+    link: 'https://makam-netzfrontend.vercel.app/makam_network',
   },
 ]
 
@@ -31,7 +31,7 @@ export default function HomeCards() {
   return cardItems.map((item, index) => (
     <Link key={index} to={item.link} className='duration-300 hover:scale-105'>
       <article className='flex min-h-[500px] flex-col gap-6 rounded-lg bg-zinc-800 px-4 pt-4 shadow-2xl lg:min-h-[565px]'>
-        <h2 className='font-baskerville mt-4 text-center text-3xl font-bold text-yellow-400  xl:text-4xl'>
+        <h2 className='mt-4 text-center font-baskerville text-3xl font-bold text-yellow-400  xl:text-4xl'>
           {item.title}
         </h2>
         <p
