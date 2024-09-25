@@ -3,16 +3,16 @@ import { Flex, Card, Text } from '@mantine/core'
 export default function GirisSection({ selectedMakam }) {
   return (
     <Card
-      miw={{ base: 350, sm: 450, lg: 250 }}
+      miw={{ base: 350, md: 250 }}
       maw={{ md: 250 }}
       radius={'md'}
       className=' bg-gradient-to-r from-blue-100 to-blue-300'
     >
-      <Flex gap={50} direction={'column'}>
+      <Flex gap={50} direction={'column'} h={{ base: 'initial', lg: '500' }}>
         <Text
           ff={'Inder'}
           ta={'center'}
-          s
+          size='xl'
           fw={'bold'}
           py={8}
           c={'white'}
