@@ -119,6 +119,13 @@ export default function Navbar() {
                   {link.name}
                 </Anchor>
               ))}
+              <Link
+                onClick={close}
+                className='font-inder text-lg font-semibold uppercase text-gray-100 duration-300 hover:text-yellow-400'
+                to='/info'
+              >
+                BİLGİ
+              </Link>
             </Flex>
             <Flex gap={16} justify={'space-evenly'}>
               <Anchor
