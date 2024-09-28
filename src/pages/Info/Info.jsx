@@ -53,7 +53,7 @@ export default function Info() {
       </ul>
       <p className='mt-6 leading-7'>
         <span className='font-semibold text-yellow-400'>Teşekkürler:</span> Tübitak, İTÜ BAP Birimi, Ali Tüfekçi,
-        Baturalp Özcan, Barış Bozkurt, Can Karadoğan, Cenk Güray, Mustafa Kemal Karaosmanoğlu, Okan Murat Öztürk.
+        Baturalp Özcan, Can Karadoğan, Faruk Çalışkan, Zehra Yılmaz.
       </p>
       <div className='my-10 h-0 border-b border-b-yellow-400/25'>
         <br />

@@ -12,7 +12,7 @@ const cardItems = [
   {
     title: 'Makamlar',
     description:
-      'Kaynaklarda yer alan makam tanımları üzerinden modellenmiş PerdeÇeşni seyirlerini inceleyin, örnek kayıtları dinleyin.',
+      'Kaynaklarda yer alan makam tanımları üzerinden modellenmiş Perde-Çeşni seyirlerini inceleyin, örnek kayıtları dinleyin.',
     image: '/images/home-makams.png',
     alt: 'makams page screenshot',
     link: '/makams',
