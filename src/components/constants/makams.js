@@ -3061,4 +3061,104 @@ export const makams = [
     desc: 'Gerdaniye perdesinden başlayan bir Segah perdesindeki Hüzzam çeşnisi ile başlar. Çargah merkezli Hicaz çeşnisine geçer. Sırasıyla Acemaşiran ve Nim Zirgüle perdeleriyle Dügah perdesindeki çeşnisine yönelir ve burada karar verir.',
     audio: '/records/makamlar/vechi_arazbar_hizir_aga.mp3',
   },
+  {
+    name: 'Rast (Anadolu Edvar Geleneği)',
+    slug: 'rast (anadolu edvar geleneği)',
+    label: 'Temel Makamlar',
+    journey: {
+      begin: {
+        root1: 'Rast',
+        pow1: 'Rast',
+      },
+      middle: {
+        root1: 'Rast',
+        pow1: 'Rast',
+        root2: 'Neva',
+        pow2: 'Rast',
+        root3: 'Yegah',
+        pow3: 'Rast',
+      },
+      end: { root1: 'Rast', pow1: 'Perde' },
+    },
+    desc: "Yusuf Kırşehri'nin tanımına göre Rast makamı Rast perdesindeki Rast çeşnisi ile başlar. Neva perdesinde ve Yegah perdesinde Rast çeşnilerini gösterir. Rast perdesinde Rast çeşnisi yapar ve Rast perdesi üzerinde karar verir.",
+    audio: '/records/makamlar/.mp3',
+  },
+  {
+    name: 'Hüseyni (Anadolu Edvar Geleneği)',
+    slug: 'hüseyni (anadolu edvarı geleneği)',
+    label: 'Temel Makamlar',
+    journey: {
+      begin: {
+        root1: 'Dügah',
+        pow1: 'Hüseyni',
+      },
+      middle: {
+        root1: 'Dügah',
+        pow1: 'Hüseyni',
+        root2: 'Hüseyni',
+        pow2: 'Uşşak',
+      },
+      end: { root1: 'Dügah', pow1: 'Hüseyni' },
+    },
+    desc: "Hızır Bin Abdullah'a göre Hüseyni makamı Dügah perdesindeki Hüseyni çeşnisi ile başlar. Hüseyni eksenli Uşşak çeşnisini gösterir ve Dügah perdesindeki Hüseyni çeşni ile başladığı gibi karar verir.",
+    audio: '/records/makamlar/.mp3',
+  },
+  {
+    name: 'Uşşak (Anadolu Edvar Geleneği)',
+    slug: 'uşşak (anadolu edvarı geleneği)',
+    label: 'Temel Makamlar',
+    journey: {
+      begin: {
+        root1: 'Rast',
+        pow1: 'Perde',
+        root2: 'Dügah',
+        pow2: 'Perde',
+      },
+      middle: {
+        root1: 'Dügah',
+        pow1: 'Uşşak',
+        root2: 'Neva',
+        pow2: 'Rast',
+      },
+      end: { root1: 'Dügah', pow1: 'Perde' },
+    },
+    desc: "Hızır Bin Abdullah'ın Uşşak makamı tanımda Rast perdesinin Dügah perdesine doğru hareketiyle başlar. Daha sonra Dügah perdesinde Uşşak çeşni gösterir. Neva perdesindeki Rast çeşnisini gösterir. Dügah perdesiyle karar verir",
+    audio: '/records/makamlar/.mp3',
+  },
+  {
+    name: 'Hicaz (Anadolu Edvar Geleneği)',
+    slug: 'hicaz (anadolu edvarı geleneği)',
+    label: 'Temel Makamlar',
+    journey: {
+      begin: {
+        root1: 'Neva',
+        pow1: 'Perde',
+      },
+      middle: {
+        root1: 'Dügah',
+        pow1: 'Hicaz',
+      },
+      end: { root1: 'Dügah', pow1: 'Perde' },
+    },
+    desc: "Kadızade Tirevi'ye göre Hicaz makamı Neva perdesinden başlar ve Hicaz yüzünden Dügah perdesine gelir ve burada karar verir",
+    audio: '/records/makamlar/.mp3',
+  },
+  {
+    name: 'Buselik (Anadolu Edvar Geleneği)',
+    slug: 'buselik (anadolu edvarı geleneği)',
+    label: 'Temel Makamlar',
+    journey: {
+      begin: {
+        root1: 'Hüseyni',
+        pow1: 'Perde',
+      },
+      middle: {
+        root1: 'Dügah',
+        pow1: 'Buselik',
+      },
+      end: { root1: 'Dügah', pow1: 'Perde' },
+    },
+    desc: "Kadızade Tirevi'ye göre Buselik makamı Hüseyni perdesinden başlar ve Buselik yüzünden Dügah perdesine gelir ve burada karar verir",
+    audio: '/records/makamlar/.mp3',
+  },
 ]
