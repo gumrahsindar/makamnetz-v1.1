@@ -29,6 +29,15 @@ export default function MakamsModal() {
       <p className='mb-4'>Seyir modellerinin oluşturulmasında yararlanılan başlıca kaynaklar şunlardır:</p>
       <ul className='mb-4 list-disc pl-10'>
         <li>
+          Yusuf Kırşehri, <i>Risale-i Mûsikî</i> [1411] (Doğrusöz, 2012)
+        </li>
+        <li>
+          Hızır Bin Abdullah, <i>Kitabü'l-Edvâr</i> [1441] (Çelik, 2001)
+        </li>
+        <li>
+          Kadızâde Mehmed Tirevî, <i>Risale-i Mûsikî</i> [1492] (Uygun, 1990)
+        </li>
+        <li>
           Dimitri Kantemir, <i>Kitâbu İlmi’l-Musiki alâ Vechi’l-Hurufât</i> [1700?] (Tura, 2002)
         </li>
         <li>
