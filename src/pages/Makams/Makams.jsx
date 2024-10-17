@@ -2,7 +2,7 @@ import { Box, Divider, Flex, Combobox, useCombobox, TextInput } from '@mantine/c
 import { useState } from 'react'
 import MakamInfo from './components/MakamInfo'
 import MakamSeyir from './components/MakamSeyir'
-import { makams } from '../../components/constants/makams'
+import { makams } from '../../constants/makams'
 import MakamsModal from './components/MakamsModal'
 
 export default function Makams() {

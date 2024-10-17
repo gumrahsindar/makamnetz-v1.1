@@ -1,5 +1,5 @@
 import { Box, Divider, Stack, Text, Title } from '@mantine/core'
-import AudioPlayer from '../../../components/lib/AudioPlayer'
+import AudioPlayer from '../../../lib/AudioPlayer'
 
 export default function MakamInfo({ selectedMakam }) {
   return (
